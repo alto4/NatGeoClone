@@ -8,6 +8,11 @@
     --light-bg-color: #f2f2f2;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
 .navbar-left .logo {
     width: 110px;
 }
@@ -24,4 +29,57 @@
 
 .navbar-right {
     align-items: center;
+}
+
+.latest-stories {
+    display: block;
+}
+
+h1 {
+    font-size: 4rem;
+    letter-spacing: 2px;
+}
+
+.lead {
+    font-size: 1.25rem;
+}
+
+.article-category {
+    font-size: .9rem;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 1rem;
+}
+
+.sub-category {
+    color: #888;
+    font-weight: 100;
+}
+
+.article-title {
+    font-size: 1.1rem;
+    line-height: 1.3;
+}
+
+.text-overlay .article-title {
+    font-size: 2.5rem;
+}
+
+.todays-picks-right .card img {
+    width: 100%;
+}
+
+.yellow-border {
+    border-right: 4px solid var(--yellow-color);
+    border-bottom: 4px solid var(--yellow-color);
+}
+
+.nat-geo-tv .lead {
+    margin-bottom: 2rem;
+}
+
+#tv-upper-section {
+    background: url('../images/barskins.jpg') center center/cover no-repeat;
+    min-height: 103vh;
+    padding-top: 40vh;
 }

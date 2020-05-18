@@ -54,11 +54,6 @@ img {
   margin: 0 auto;
 }
 
-div[class^="c"],
-div[class^="fc"] {
-  border: 1px solid red;
-}
-
 .row {
   display: flex;
   justify-content: flex-start;
@@ -94,8 +89,10 @@ div[class^="fc"] {
 }
 
 .c8 {
-  width: calc((100% / 12) * 8);
+  width: calc((100% / 12) * 8.3);
 }
+
+
 
 .c9 {
   width: calc((100% / 12) * 9);
@@ -113,7 +110,6 @@ div[class^="fc"] {
 .row,
 .c12 {
   width: calc((100% / 12) * 12);
-  display: flex;
   justify-content: flex-start;
 }
 
@@ -121,10 +117,7 @@ div[class^="fc"] {
   border: none !important;
 }
 
-div[class*="center"] {
-  display: flex;
-  justify-content: center;
-}
+
 
 div[class*="end"] {
   display: flex;
@@ -132,8 +125,20 @@ div[class*="end"] {
 }
 
 /* Full Vertical Columns with various horizontal content align */
+.hc {
+  justify-content: center;
+}
+
+.hs {
+  justify-content: flex-start;
+}
+
+.he {
+  justify-content: flex-end;
+}
+
 .vc {
-  align-items: center;
+  text-align: center;
 }
 
 .vs {
@@ -622,6 +627,40 @@ div[class*="end"] {
   margin-left: var(--margin-6);
 }
 
+.mx-auto {
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: start;
+}
+
+.text-right {
+  text-align: end;
+}
+
+
+
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.inline {
+  display: inline-flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
 /**********************/
 /* Utility Styles */
 /**********************/
@@ -645,6 +684,78 @@ body {
   padding: 1rem;
   text-transform: uppercase;
   font-size: .8rem;
+}
+
+/* Text Styles */
+.uppercase {
+  text-transform: uppercase;
+}
+
+.yellow-underline {
+  border-bottom: 2px solid var(--yellow-color);
+}
+
+/* Image Styles */
+.img-container {
+  position: relative;
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+}
+
+.text-1 {
+  font-size: .5rem !important;
+}
+
+.text-2 {
+  font-size: 1rem !important;
+}
+
+.text-3 {
+  font-size: 1.5rem !important;
+}
+
+.text-4 {
+  font-size: 2rem !important;
+}
+
+.text-5 {
+  font-size: 2.5rem !important;
+}
+
+.text-6 {
+  font-size: 3rem !important;
+}
+
+.text-7 {
+  font-size: 3.5rem !important;
+}
+
+.text-8 {
+  font-size: 4rem !important;
+}
+
+/* Section Styles */
+.bg-dark {
+  background-color: var(--dark-color);
+  color: #fff;
+}
+
+.bg-light {
+  background-color: #fff;
+  color: var(--dark-color);
+
+}
+
+hr.yellow-rule {
+  outline: none;
+  border: 2.5px solid var(--yellow-color);
+  width: 50px;
+  margin: 1.5rem auto;
 }
 
 /* Button Styles */
