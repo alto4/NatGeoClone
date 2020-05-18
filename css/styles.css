@@ -1,0 +1,27 @@
+@import "framework.css";
+
+:root {
+    /* Color Variables */
+    --yellow-color: #fc0;
+    --dark-yellow-color: #ffd203;
+    --dark-color: #000;
+    --light-bg-color: #f2f2f2;
+}
+
+.navbar-left .logo {
+    width: 110px;
+}
+
+.nav-link {
+    letter-spacing: 2px;
+}
+
+.nav-link.yellow-underline {
+    padding: 0 .1rem;
+    margin: 1rem;
+    border-bottom: 2px solid var(--yellow-color);
+}
+
+.navbar-right {
+    align-items: center;
+}
