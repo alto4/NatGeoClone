@@ -137,6 +137,10 @@ div[class*="end"] {
   justify-content: flex-end;
 }
 
+.space-between {
+  justify-content: space-between;
+}
+
 .vc {
   text-align: center;
 }
@@ -705,6 +709,24 @@ body {
   bottom: 0;
   left: 0;
   color: #fff;
+}
+
+.top-center-text-overlay {
+  position: absolute;
+  top: 0;
+  left: 43%;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.bottom-left-text-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 2px;
 }
 
 .text-1 {

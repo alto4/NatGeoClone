@@ -31,6 +31,10 @@
     align-items: center;
 }
 
+.header-ad {
+    margin-bottom: -5px;
+}
+
 .latest-stories {
     display: block;
 }
@@ -65,7 +69,8 @@ h1 {
     font-size: 2.5rem;
 }
 
-.todays-picks-right .card img {
+.img-container img,
+.card img {
     width: 100%;
 }
 
@@ -82,4 +87,26 @@ h1 {
     background: url('../images/barskins.jpg') center center/cover no-repeat;
     min-height: 103vh;
     padding-top: 40vh;
+}
+
+
+.tv-img-container img {
+    width: 170px;
+    height: 246px;
+}
+
+.travel-right .card img {
+    height: 90px;
+    width: 90px;
+}
+
+.more-tv-title {
+    margin: 20px auto;
+    width: 71%;
+}
+
+#travel-section {
+    background: url('../images/adventure-clouds-colorful-daylight-413788\ \(1\).jpg') center center/cover no-repeat;
+    min-height: 103vh;
+    padding-top: 10vh;
 }
