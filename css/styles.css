@@ -48,8 +48,16 @@ h1 {
     font-size: 1.25rem;
 }
 
+.footer-nav-title,
 .article-category {
     font-size: .9rem;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 1rem;
+}
+
+.article-category-lg {
+    font-size: 1.1rem;
     letter-spacing: 2px;
     font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 1rem;
@@ -79,6 +87,11 @@ h1 {
     border-bottom: 4px solid var(--yellow-color);
 }
 
+.yellow-pipe {
+    color: var(--yellow-color);
+    margin-right: 1rem;
+}
+
 .nat-geo-tv .lead {
     margin-bottom: 2rem;
 }
@@ -95,9 +108,10 @@ h1 {
     height: 246px;
 }
 
-.travel-right .card img {
-    height: 90px;
-    width: 90px;
+.travel-right .card img,
+.magazine-right .card img {
+    height: 95px;
+    width: 95px;
 }
 
 .more-tv-title {
@@ -109,4 +123,98 @@ h1 {
     background: url('../images/adventure-clouds-colorful-daylight-413788\ \(1\).jpg') center center/cover no-repeat;
     min-height: 103vh;
     padding-top: 10vh;
+}
+
+.last-voices {
+    height: 450px;
+}
+
+.bottom-ad {
+    background: url('../images/ad2.jpg') center center/cover no-repeat;
+    min-height: 70vh;
+}
+
+.bottom-ad .text-left {
+    padding-left: 4rem;
+    padding-right: 35%;
+}
+
+#mission-statement {
+    line-height: 1.4;
+}
+
+.we-do-grid .col-1,
+.we-do-grid .col-2,
+.we-do-grid .col-3 {
+    height: 400px;
+    padding: 1rem;
+    padding-top: 7%;
+}
+
+.we-do-grid {
+    color: #fff;
+}
+
+.we-do-grid h2 {
+    font-size: 1.7rem;
+}
+
+.we-do-grid .col-1 {
+    background: url('../images/sumatran-rhino.jpg') center center/cover no-repeat;
+}
+
+.we-do-grid .col-2 {
+    background: url('../images/iceberg.jpg') center center/cover no-repeat;
+}
+
+.we-do-grid .col-3 {
+    background: url('../images/pristine-seas.jpg') center center/cover no-repeat;
+}
+
+.we-do-grid .btn-yellow {
+    margin-top: 90px;
+}
+
+.footer-nav-links {
+    font-size: .9rem;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer-nav-links li {
+    margin: .75rem 0;
+}
+
+.footer-nav-links li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-social-links li {
+    padding-right: 1rem;
+}
+
+.footer-social-links li:hover {
+    color: var(--yellow-color);
+    cursor: pointer;
+}
+
+#join-us-col {
+    width: 150px;
+}
+
+.footer-bottom {
+    border-top: .5px solid #999;
+}
+
+.footer-bottom img {
+    width: 200px;
+}
+
+.footer-bottom p {
+    font-size: .85rem;
+    color: #777;
+}
+
+.footer-bottom .pipe {
+    margin: 0 .8rem;
 }

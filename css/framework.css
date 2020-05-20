@@ -143,6 +143,7 @@ div[class*="end"] {
 
 .vc {
   text-align: center;
+  align-items: center;
 }
 
 .vs {
@@ -671,7 +672,15 @@ div[class*="end"] {
 
 /* Font Styles */
 body {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Franklin Gothic", "Arial Narrow", Arial, sans-serif;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
 }
 
 /* Navbar Styles */
@@ -803,6 +812,10 @@ hr.yellow-rule {
 .btn-yellow {
   background-color: var(--yellow-color);
   color: var(--dark-color);
+}
+
+.btn:hover {
+  cursor: pointer;
 }
 
 /* TODO
